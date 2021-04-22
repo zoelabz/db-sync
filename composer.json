@@ -1,0 +1,25 @@
+{
+    "name": "zoelabz/db-sync",
+    "description": "This is a PHP Library for Enabling You to Synchronize Your Database From One Server to Another",
+    
+    "homepage" : "https://github.com/zoelabz/db-sync",
+
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Elijah Masanga",
+            "email": "zoelabz@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload" : {
+        "psr-4" : {
+            "Zoelabz\\DbSync\\" : "src/"
+        },
+        "files" : [
+            "src/helper.php"
+        ]
+    }
+}
